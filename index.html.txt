@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cartão Digital</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #111;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .card {
+        background: #1e1e1e;
+        padding: 25px;
+        width: 330px;
+        border-radius: 12px;
+        box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+        text-align: center;
+        border: 1px solid #333;
+    }
+    .title {
+        font-size: 22px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .items p {
+        color: #ccc;
+    }
+    .balance {
+        margin-top: 20px;
+        font-size: 32px;
+        font-weight: bold;
+        color: #42ff7a;
+    }
+</style>
+</head>
+<body>
+
+<div class="card">
+    <div class="title">💳 Cartão Digital</div>
+
+    <div class="items">
+        <p>Nome: Arthur</p>
+        <p>Profissão: Desenvolvedor</p>
+        <p>Email: sem@email.com</p>
+        <p>Telefone: (00) 00000-0000</p>
+        <p>Instagram: @arthur.site</p>
+    </div>
+
+    <div class="balance">Saldo: R$ 1,00</div>
+</div>
+
+</body>
+</html>
